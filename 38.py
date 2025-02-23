@@ -4,3 +4,4 @@ def filter_string(my_string: str, symbol: str) -> str:
         if i.lower() != symbol.lower():
             new_string += i
     return new_string.strip()
+
