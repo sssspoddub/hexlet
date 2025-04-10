@@ -7,11 +7,10 @@ def debug_decorator(func):
         return result
     return wrapper
 
+
 @debug_decorator
 def sum(*nums):
     result = 0
     for num in nums:
         result += num
     return result
-
-print(sum(1, 2))
